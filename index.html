@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <base href="." />
+
+  <title>Внимание!</title>
+
+  <script>
+    function getUrlParameter(t) {
+      var e,
+        n,
+        o = decodeURIComponent(window.location.search.substring(1)),
+        a = o.split("&");
+      for (n = 0; n < a.length; n++)
+        if (((e = a[n].split("=")), e[0] === t))
+          return void 0 === e[1] ? !0 : e[1];
+    }
+
+    var languageParam = navigator.language;
+    var device_brand = "Desktop" || "Android";
+    var device_model = "Desktop" || "";
+    var app_name = getUrlParameter("app_name") || "Fast&Clean PRO";
+  </script>
+  <script type='text/javascript' src='https://propeller-tracking.com/fv.js?t=86421'></script>
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"> -->
+  <link rel="icon" type="image/webp" sizes="32x32" href="./icon.webp" />
+  <link rel="icon" type="image/webp" sizes="16x16" href="./icon.webp" />
+  <link rel="manifest" href="https://spacecleanerapp.com/landers/all_space_emoji/site.webmanifest" />
+
+  <link rel="stylesheet" href="./style.css" />
+
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <script src="./jquery-1.11.3.min.js"></script>
+  <script src="./language-switch-base.js"></script>
+  <script src="./language-switch-set.js"></script>
+
+  <script>
+    document.title = languageSelector.titleText;
+
+    $(function () {
+      //alert(languageSelector.alertStart);
+    });
+  </script>
+</head>
+
+<body class="en ltr">
+  <div class="wrap">
+    <div class="window">
+      <div class="text">
+        <h1 class="blink_me">
+          📵
+          <script>
+            document.write(languageSelector.header);
+          </script>
+          📵
+        </h1>
+        <p>
+          ⚠️
+          <script>
+            document.write(languageSelector.text1);
+          </script>
+          ⚠️
+        </p>
+        <br />
+        <p>
+          <script>
+            document.write(languageSelector.text2);
+          </script>
+        </p>
+        <br />
+        <img src="./icon.webp" style="width: 70px; float: left; padding-right: 10px" />
+        <p style="font-weight: bold">
+          <script>
+            document.write(languageSelector.text3);
+          </script>
+        </p>
+        <br />
+      </div>
+      <div class="buttons">
+        <a class="button exitpoint"
+          href="https://bainushe.com/link?z=4087557&var={SOURCE_ID}&ymid={CLICK_ID}&browser_version={browser_version}&os_version={os_version}&clickid={clickid}&campaign={campaign}&trafficsource={trafficsource}&clickcost={clickcost}"><span>
+            <script>
+              document.write(languageSelector.button);
+            </script>
+          </span></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
